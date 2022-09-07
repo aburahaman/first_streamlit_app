@@ -42,7 +42,7 @@ try:
    streamlit.dataframe(back_from_function)
 except URLError as e:
   streamlit.error()
-streamlit.stop()
+#streamlit.stop()
 
 streamlit.header("The Furit Load List Contains:")
 #snowflake-related functions
